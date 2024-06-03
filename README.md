@@ -4,8 +4,10 @@ This is the code database for DDPET-3D (Dose-aware Diffusion Model for 3D Low-do
 
 ## Installation
 
+Deep learning models reported in this work were built using PyTorch library v1.7.1 (Meta AI). The custom codes were written in Python v3.6.9. Dependent packages include Numpy v1.16.4, Nibabel v3.2.1, mpi4py v3.0.3, and blobfile v0.11.0. Statistical testings were performed using MATLAB (R2023b). PET image reconstructions were performed using clinical software provided by Siemens Healthineers and United Imaging Healthcare.
+
 1. Create a conda environment ``conda create -n ddpet_3d python=3.6.9`` and activate it ``conda activate ddpet_3d``
-2. Install [pytorch1.7](https://pytorch.org/get-started/previous-versions/) and other dependent packages listed below
+2. Install [pytorch1.7](https://pytorch.org/get-started/previous-versions/) and other dependent packages listed above
 3. Update data path in dataloader ./scripts/dataloader_scripts/dataset_2_5D.py
 4. Model training ./scripts/super_res_train_2_5D_combine.py
 5. Model testing ./scripts/super_res_sample_2_5D.py
@@ -13,8 +15,8 @@ This is the code database for DDPET-3D (Dose-aware Diffusion Model for 3D Low-do
 ## Trained models
 Will be made available.
 
-Deep learning models reported in this work were built using PyTorch library v1.7.1 (Meta AI). The custom codes were written in Python v3.6.9. Dependent packages include Numpy v1.16.4, Nibabel v3.2.1, mpi4py v3.0.3, and blobfile v0.11.0. Statistical testings were performed using MATLAB (R2023b). PET image reconstructions were performed using clinical software provided by Siemens Healthineers and United Imaging Healthcare.
 
+## Reference
 If you found this code or our work useful, please cite us.
 ```
 @misc{xie_dose-aware_2024,
