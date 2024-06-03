@@ -23,4 +23,5 @@ If you found this code or our work useful, please cite us.
 ```
 
 Contact: Huidong.Xie@yale.edu
+
 Code adapted from https://github.com/openai/guided-diffusion
