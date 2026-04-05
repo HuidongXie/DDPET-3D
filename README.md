@@ -38,14 +38,16 @@ CUDA_VISIBLE_DEVICES=0 python3 train.py
 
 ## Citation
 ```
-@misc{xie2025doseawarediffusionmodel3d,
-      title={Dose-aware Diffusion Model for 3D PET Image Denoising: Multi-institutional Validation with Reader Study and Real Low-dose Data}, 
-      author={Huidong Xie and Weijie Gan and Reimund Bayerlein and Bo Zhou and Ming-Kai Chen and Michal Kulon and Annemarie Boustani and Kuan-Yin Ko and Der-Shiun Wang and Benjamin A. Spencer and Wei Ji and Xiongchao Chen and Qiong Liu and Xueqi Guo and Menghua Xia and Yinchi Zhou and Hui Liu and Liang Guo and Hongyu An and Ulugbek S. Kamilov and Hanzhong Wang and Biao Li and Axel Rominger and Kuangyu Shi and Ge Wang and Ramsey D. Badawi and Chi Liu},
-      year={2025},
-      eprint={2405.12996},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV},
-      url={https://arxiv.org/abs/2405.12996}, 
+@article{XIE2026104039,
+title = {Dose-aware diffusion model for 3D PET image denoising: Multi-institutional validation with reader study and real low-dose data},
+journal = {Medical Image Analysis},
+volume = {111},
+pages = {104039},
+year = {2026},
+issn = {1361-8415},
+doi = {https://doi.org/10.1016/j.media.2026.104039},
+url = {https://www.sciencedirect.com/science/article/pii/S1361841526001088},
+author = {Huidong Xie and Weijie Gan and Reimund Bayerlein and Bo Zhou and Ming-Kai Chen and Michal Kulon and Annemarie Boustani and Kuan-Yin Ko and Der-Shiun Wang and Benjamin A. Spencer and Wei Ji and Xiongchao Chen and Qiong Liu and Xueqi Guo and Menghua Xia and Yinchi Zhou and Hui Liu and Liang Guo and Hongyu An and Ulugbek S. Kamilov and Hanzhong Wang and Biao Li and Axel Rominger and Kuangyu Shi and Ge Wang and Ramsey D. Badawi and Chi Liu}
 }
 ```
 
